@@ -1,0 +1,39 @@
+Contexte:
+
+Asminfo est une société informatique spécialisée dans les services d'assistance, de maintenance, d'ingénierie et de distribution, 
+et de réparation aux composants, offrant une gamme complète de solutions informatiques pour les entreprises et les particuliers.
+
+Elle est et situé aux 14 rue denis papin à Roissy en brie
+Cette société possède une base de données contenant les suivis de la réparation de chaque client afin d'informer les techniciens et ainsi assurée la bonne gestion
+
+Cette société possède également un site vitrine réaliser en 2023 par un stagiaire qui présente la société et ses services et un bouton extranet qui devait permettre
+à un client d'avoir accès à son suivi de réparation a été ajouter mais n'a pas été fait car ce n'était pas dans les compétences du stagiaire.
+
+Ma mission:
+
+ma mission au cours de ses 8 semaines de stage était de:
+
+-Rendre le site aux normes en créant par exemple une page mention légale
+
+-Crée une page de connexion avec un lien en cas d'oublie de mot de passe
+
+-Crée une page utilisateur permettant à a un utlisateur de suivre l'avancer de sa répartation,supprimer son compte ce qui supprime ses article et son compte ,
+modifier son mot de passe,username et email ce qui change la date de modification. Pouvoir télécharger le tableau
+
+-Crée une page admin permettant le contrôle des utilisateurs, la création des comptes utilisateur, la création d'un compte admin, la suppresion du compte tant qu'il 
+reste un compte admin la vérification des sessions,et logs et ,modifier son mot de passe,username ce qui change la date de modification  et pouvoir télécharger les
+donnée logs et session
+
+-Sécuriser les mot de passe avec un hash
+
+-Crée une base de donnée fonctionnel
+
+-Envoyer un mail une fois le compte crée qui invite l'utilisateur à se connecter ou envoyer un mail en cas de perte du mot de passe ou du nom d'utilisateur
+
+Pour l'importation des donnée
+
+-Elles se fait dans phpmyadmin en important les donnée en csv.
+
+-Un trigger permet également l'importation des du nom de la société, de sont mail et de sont numéro client dans la table société qui permet 
+ensuite la création du compte
+
