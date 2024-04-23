@@ -1,0 +1,373 @@
+CRITICAL - 2024-02-19 08:26:41 --> CodeIgniter\Exceptions\ModelException: "App\Models\UserModel" model class does not have a valid dateFormat.
+in SYSTEMPATH\BaseModel.php on line 1369.
+ 1 SYSTEMPATH\BaseModel.php(1369): CodeIgniter\Exceptions\ModelException::forNoDateFormat('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(1336): CodeIgniter\BaseModel->intToDate(1708331201)
+ 3 SYSTEMPATH\BaseModel.php(792): CodeIgniter\BaseModel->setDate()
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Connexion.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-19 08:34:05 --> mysqli_sql_exception: Column 'societe' cannot be null in C:\Users\user\xampp\htdocs\v4bis\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\user\xampp\htdocs\v4bis\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\Users\user\xampp\htdocs\v4bis\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\Users\user\xampp\htdocs\v4bis\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\Users\user\xampp\htdocs\v4bis\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\Users\user\xampp\htdocs\v4bis\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\user\xampp\htdocs\v4bis\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\user\xampp\htdocs\v4bis\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\user\xampp\htdocs\v4bis\app\Controllers\Connexion.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\Users\user\xampp\htdocs\v4bis\system\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+#9 C:\Users\user\xampp\htdocs\v4bis\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#10 C:\Users\user\xampp\htdocs\v4bis\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\user\xampp\htdocs\v4bis\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-19 08:34:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'societe' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (:societe:, :mdp:, :date_création:, :date_modification:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Connexion.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 08:34:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'societe' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (NULL, \'test\', \'2024-02-19 08:34:05\', \'2024-02-19 08:34:05\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (NULL, \'test\', \'2024-02-19 08:34:05\', \'2024-02-19 08:34:05\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (:societe:, :mdp:, :date_création:, :date_modification:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Connexion.php(43): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 08:34:05 --> [Caused by] mysqli_sql_exception: Column 'societe' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (NULL, \'test\', \'2024-02-19 08:34:05\', \'2024-02-19 08:34:05\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (NULL, \'test\', \'2024-02-19 08:34:05\', \'2024-02-19 08:34:05\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (NULL, \'test\', \'2024-02-19 08:34:05\', \'2024-02-19 08:34:05\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (:societe:, :mdp:, :date_création:, :date_modification:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Connexion.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 08:36:55 --> Error: Class "app\Models\UserModel" not found
+in APPPATH\Controllers\Connexion.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 08:39:56 --> Error: Class "app\Models\UserModel" not found
+in APPPATH\Controllers\Connexion.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 08:40:25 --> Error: Class "app\Models\UserModel" not found
+in APPPATH\Controllers\Connexion.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 08:41:31 --> Error: Class "app\Models\UserModel" not found
+in APPPATH\Controllers\Connexion.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 09:02:44 --> Error: Class "app\Models\UserModel" not found
+in APPPATH\Controllers\Connexion.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:22:51 --> ParseError: syntax error, unexpected token "]"
+in APPPATH\Controllers\Connexion.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Controllers\\Connexion.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Connexion')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Connexion')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Connexion', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:49:10 --> ArgumentCountError: password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\Connexion.php on line 48.
+ 1 APPPATH\Controllers\Connexion.php(48): password_hash(Object(SensitiveParameterValue))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:49:51 --> ArgumentCountError: var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Connexion.php on line 42.
+ 1 APPPATH\Controllers\Connexion.php(42): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:50:05 --> ArgumentCountError: var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Connexion.php on line 42.
+ 1 APPPATH\Controllers\Connexion.php(42): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:50:13 --> ArgumentCountError: var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Connexion.php on line 42.
+ 1 APPPATH\Controllers\Connexion.php(42): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:53:17 --> TypeError: CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in C:\Users\user\xampp\htdocs\v4bis\app\Config\Routes.php on line 50
+in SYSTEMPATH\Router\RouteCollection.php on line 997.
+ 1 APPPATH\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->match('Connexion/inscription/enregistrement', 'Connexion::enregistrement')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:53:19 --> TypeError: CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in C:\Users\user\xampp\htdocs\v4bis\app\Config\Routes.php on line 50
+in SYSTEMPATH\Router\RouteCollection.php on line 997.
+ 1 APPPATH\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->match('Connexion/inscription/enregistrement', 'Connexion::enregistrement')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 10:53:27 --> TypeError: CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in C:\Users\user\xampp\htdocs\v4bis\app\Config\Routes.php on line 50
+in SYSTEMPATH\Router\RouteCollection.php on line 997.
+ 1 APPPATH\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->match('Connexion/inscription/enregistrement', 'Connexion::enregistrement')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 11:16:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(60): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 11:18:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(61): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 11:19:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(61): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 11:19:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(61): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:08:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(60): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:17:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(60): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:43:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Register.php(18): view('register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:45:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:56:51 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Templates\header.php on line 7.
+ 1 APPPATH\Views\Templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Templates/header.php', [], true)
+ 5 APPPATH\Controllers\Authentification.php(12): view('Templates/header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Authentification->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentification))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:57:45 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Templates\header.php on line 21.
+ 1 APPPATH\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Templates/header.php', [], true)
+ 5 APPPATH\Controllers\Authentification.php(12): view('Templates/header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Authentification->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentification))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:57:46 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Templates\header.php on line 21.
+ 1 APPPATH\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Templates/header.php', [], true)
+ 5 APPPATH\Controllers\Authentification.php(12): view('Templates/header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Authentification->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentification))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 13:59:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Pages/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pages/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/login', [], true)
+ 3 APPPATH\Controllers\Authentification.php(23): view('Pages/login')
+ 4 APPPATH\Controllers\Authentification.php(12): App\Controllers\Authentification->authentification()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Authentification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentification))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 14:03:41 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Templates\header.php on line 21.
+ 1 APPPATH\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Templates/header.php', [], true)
+ 5 APPPATH\Controllers\Connexion.php(13): view('Templates/header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 14:17:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Connexion.php(60): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Connexion->enregistrement()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-19 14:20:22 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdd_test`.`utilisateur`, CONSTRAINT `utilisateur_ibfk_1` FOREIGN KEY (`id_utilisateur_s`) REFERENCES `societe` (`id_societe`)) in C:\Users\user\xampp\htdocs\v4bis\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\user\xampp\htdocs\v4bis\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\Users\user\xampp\htdocs\v4bis\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\Users\user\xampp\htdocs\v4bis\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\Users\user\xampp\htdocs\v4bis\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\Users\user\xampp\htdocs\v4bis\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\user\xampp\htdocs\v4bis\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\user\xampp\htdocs\v4bis\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\user\xampp\htdocs\v4bis\app\Controllers\Inscription.php(42): CodeIgniter\Model->insert(Array)
+#8 C:\Users\user\xampp\htdocs\v4bis\system\CodeIgniter.php(941): App\Controllers\Inscription->enregistrement()
+#9 C:\Users\user\xampp\htdocs\v4bis\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inscription))
+#10 C:\Users\user\xampp\htdocs\v4bis\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\user\xampp\htdocs\v4bis\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-19 14:20:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bdd_test`.`utilisateur`, CONSTRAINT `utilisateur_ibfk_1` FOREIGN KEY (`id_utilisateur_s`) REFERENCES `societe` (`id_societe`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (:societe:, :mdp:, :date_création:, :date_modification:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Inscription.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Inscription->enregistrement()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inscription))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 14:20:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bdd_test`.`utilisateur`, CONSTRAINT `utilisateur_ibfk_1` FOREIGN KEY (`id_utilisateur_s`) REFERENCES `societe` (`id_societe`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (\'asminfo\', \'$2y$10$1pVqEmV9F2QfI0D.OL4CRuINIkrGItQHrFWXklZdMMtzPQaVb3UcG\', \'2024-02-19 14:20:22\', \'2024-02-19 14:20:22\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (\'asminfo\', \'$2y$10$1pVqEmV9F2QfI0D.OL4CRuINIkrGItQHrFWXklZdMMtzPQaVb3UcG\', \'2024-02-19 14:20:22\', \'2024-02-19 14:20:22\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (:societe:, :mdp:, :date_création:, :date_modification:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Inscription.php(42): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Inscription->enregistrement()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inscription))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-19 14:20:23 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdd_test`.`utilisateur`, CONSTRAINT `utilisateur_ibfk_1` FOREIGN KEY (`id_utilisateur_s`) REFERENCES `societe` (`id_societe`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (\'asminfo\', \'$2y$10$1pVqEmV9F2QfI0D.OL4CRuINIkrGItQHrFWXklZdMMtzPQaVb3UcG\', \'2024-02-19 14:20:22\', \'2024-02-19 14:20:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (\'asminfo\', \'$2y$10$1pVqEmV9F2QfI0D.OL4CRuINIkrGItQHrFWXklZdMMtzPQaVb3UcG\', \'2024-02-19 14:20:22\', \'2024-02-19 14:20:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (\'asminfo\', \'$2y$10$1pVqEmV9F2QfI0D.OL4CRuINIkrGItQHrFWXklZdMMtzPQaVb3UcG\', \'2024-02-19 14:20:22\', \'2024-02-19 14:20:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`societe`, `mdp`, `date_création`, `date_modification`) VALUES (:societe:, :mdp:, :date_création:, :date_modification:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Inscription.php(42): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Inscription->enregistrement()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inscription))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-19 14:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 15:36:42 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Templates\header.php on line 21.
+ 1 APPPATH\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Templates/header', [], true)
+ 5 APPPATH\Controllers\Authentification.php(57): view('Templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Authentification->connexion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentification))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-19 15:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 15:42:38 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\Authentification.php on line 46.
+ 1 APPPATH\Controllers\Authentification.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Controllers\\Authentification.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Authentification->connexion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentification))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-19 15:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 16:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 16:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

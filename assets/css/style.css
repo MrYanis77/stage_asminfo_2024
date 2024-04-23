@@ -1,0 +1,1066 @@
+*{
+    box-sizing: border-box;
+    font-family: "Archivo Narrow", sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+html body{
+    margin : 0;
+    padding : 0;
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+    background-color: #F7F7F7
+    ;
+}
+figure{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+h1{
+    font-size: 4.5rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3.6rem;
+}
+h4{
+    font-size: 2.3rem;
+}
+.big{
+    font-size: 3rem;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-block: 1rem;
+    z-index: 3;
+    transition: all 0.1s ease-out;
+    
+}
+header.black{
+    background-color: black;
+    color: white;
+    transition: all 0.1s ease-out
+}
+p{
+    line-height: 2.7rem
+}
+.logo{
+    font-weight: 700;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: underline;
+}
+section{
+    width: 88%;
+    margin: 0 auto;
+}
+.banner{
+    padding: 10rem 10rem;
+    padding-top: 16rem;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px);
+    z-index: -1;
+    background-blend-mode:lighten(10%);
+    color: white;
+    padding-bottom: 4rem;
+}
+.banner-container{
+    display:flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+
+.acceuil-container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.acceuil-content{
+    width: 100%;
+    margin-top: 2rem;
+}
+.acceuil-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.acceuil-content ul li{
+    list-style: inside;
+}
+
+.trait-container{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+}
+.trait{
+    display:block;
+    width: 7%;
+    height: 5px;
+    background-color: #00C2FF;
+    margin-block: 10px;
+}
+button {
+    background-color: #00C2FF;
+    color: white;
+    border: none;
+    padding: 1rem 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.8rem; 
+}
+.banner-container a{
+    color: #00C2FF;
+    text-decoration: underline;
+
+}
+.banner-container button{
+    margin-top: 2.1rem;
+}
+.bleu{
+    color: #00C2FF;
+}
+.bold{
+    font-weight: 700;
+}
+.underline{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    margin-top: 4rem;
+}
+.footer-container{
+    width: 89%;
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    align-items: center;
+    gap: 9rem;
+    padding-block: 3rem;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer .contact-container{
+    flex-direction: row-reverse;
+}
+footer p{
+    margin-block: 1rem;
+}
+.contact-content{
+    width: 80%;
+    display:flex;
+    gap: 3rem;
+    align-items: center;
+}
+.material-symbols-outlined{
+    font-size: 40rem;
+}
+.material-symbols-outlined.md-43{
+    font-size: 4.3rem;
+}
+.carre{
+    width: 3rem;
+    height: 3rem;
+    background-color: #00C2FF;
+}
+.histoire-banner, .services-banner, .contact-banner,.mention-banner,.login-banner{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    z-index: -1;
+    color: white;
+    padding: 10rem 10rem;
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.histoire-banner{
+    background-image: url(../img/histoire_banner.jpg);
+    background-position: 0% 50%;
+
+}
+.services-banner{
+    background-image: url(../img/services.webp);
+    background-position: 0% 50%;
+}
+.contact-banner{
+    background-image: url(../img/banner.png);
+}
+
+.mention-banner{
+    background-image: url(../img/banner.png);
+}
+
+.login-banner{
+    background-image: url(../img/banner.png);
+}
+
+.histoire-container{
+    margin-top: 5rem;
+}
+
+.histoire-container ul{
+    width: 70%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr;
+    gap: 3rem;
+    padding: 0;
+}
+.histoire-container ul::before{
+    content:'';
+    width: 0.4rem;
+    height: 100%;
+    grid-row: 1 / 13;
+    background-color: #00C2FF;
+    grid-column: 2/3;
+}
+.timeline-card-content{
+    box-shadow: 3px 4px 6px 0px #00000026;
+    padding: 2rem;
+    background-color: white;
+
+}
+.timeline-card{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.timeline-card-titre{
+    display:flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 2.4rem;
+}
+.show{
+    display: flex !important;
+}
+.mobile-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: #0000006b;
+
+}
+.mobile-bar ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+#logo{
+    width: 100px;
+}
+
+
+.login-banner{
+    display: none;
+}
+/* Dropdown Button */
+.btn-nav {
+    background-color: #00C2FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+/* Dropdown container (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown button when hovering */
+.dropdown:hover .btn-nav {
+    background-color: #00b2d4;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: calc(100% - 30px); /* Agrandir les zones de texte */
+    padding: 20px; /* Augmenter le rembourrage */
+    margin: 5px 0 22px 15px; /* Décaler vers la droite */
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 50px;
+    
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #00C2FF;
+    color: white;
+    padding: 14px 18px; /* Rétrécir les boutons */
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.histoire-container ul li:nth-child(even){
+    grid-column: 1 / 2;
+    text-align: right;
+}
+.histoire-container ul li:nth-child(odd){
+    grid-column: 3 / 4;
+}
+.histoire-container ul li:nth-child(even) .timeline-card-titre{
+    flex-direction: row-reverse;
+}
+.histoire-container ul li:nth-child(odd) .timeline-card-titre{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.histoire-container ul li:nth-child(1){
+    grid-row: 1 / 2;
+}
+.histoire-container ul li:nth-child(2){
+    grid-row: 2 / 3;
+}
+.histoire-container ul li:nth-child(3){
+    grid-row: 3 / 4;
+}
+.histoire-container ul li:nth-child(4){
+    grid-row: 4 / 5;
+}
+.histoire-container ul li:nth-child(5){
+    grid-row: 5 / 6;
+}
+.histoire-container ul li:nth-child(6){
+    grid-row: 6 / 7;
+}
+.histoire-container ul li:nth-child(7){
+    grid-row: 7 / 8;
+}
+.histoire-container ul li:nth-child(8){
+    grid-row: 8 / 9;
+}
+.histoire-container ul li:nth-child(9){
+    grid-row: 9 / 10;
+}
+.histoire-container ul li:nth-child(10){
+    grid-row: 10 / 11;
+}
+.histoire-container ul li:nth-child(11){
+    grid-row: 11 / 12;
+}
+.histoire-container ul li:nth-child(12){
+    grid-row: 12 / 13;
+}
+
+
+.services-intro-container{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.services-intro-container ul{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.services-intro-container li{
+    list-style: inside;
+}
+.reparations-cards-container{
+    width: 92%;
+    margin: 0 auto;
+}
+.reparations-cards-container ul, .reparations-cards-container ul{
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    margin-block: 4rem;
+    margin-left: 3rem;
+    column-gap: 5%;
+}
+.reparations-cards-container ul li, .services-cards-container li{
+    width: 27%;
+    
+}
+.reparations-card, .services-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 3px 4px 6px 0px #00000026;
+    background-color: white;
+
+}
+.reparations-card{
+    height: 100%;
+}
+.reparations-card p{
+    margin-block: 1rem;
+}
+.reparations-card-content{
+    width:80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    margin-block: 1.6rem;
+ 
+}
+#caisse .reparations-card .titre{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.reparations-card .titre{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.reparations-card figure{
+    width: 100%;
+    height: 15rem;
+}
+.reparations-card figure img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+
+.composants-banner{
+    display: flex;
+    width: 100%;
+    background-color: #00C2FF;
+    color: white;
+    gap: 4rem;
+    margin-block: 6rem;
+}
+.composants-banner-titre{
+    width: 35%;
+    background-image: url(../img/services.webp);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.composants-banner-content{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.services-cards-container{
+    margin-block: 5rem;
+}
+.services-card{
+    padding: 3rem;
+}
+.nous-contacter{
+    display:flex;
+    align-items: center;
+    width: 80%;
+    margin: 5rem auto;
+    justify-content: space-between;
+}
+.nous-contacter-container{
+    margin-block: 5rem;
+}
+.contact-map{
+    width: 63%;
+    height: 40rem;
+}
+.nous-contacter .contact-container{
+    width: 35%;
+}
+.reparations-cards-container h3{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.mobile-button{
+    display: none;
+    z-index: 3;
+    background-color: transparent;
+}
+footer a{
+    color: white;
+}
+.nous-contacter a{
+    color: black;
+}
+
+.references-clients{
+    margin-top: 10rem;
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 7rem;
+}
+.tarif ul{
+    padding: 0;
+}
+.tarif ul li{
+    list-style: inside;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.services-card-list{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+}
+.services-card-list li{
+    width: 23%;
+}
+
+.titre_article {
+    margin-top: 20px; /* Ajustez cette valeur selon vos besoins */
+    text-align: center; /* Centrage du titre */
+}
+
+.titre_article {
+    margin-top: 150px; /* Ajustez cette valeur selon vos besoins */
+    text-align: left; /* Centrage du titre */
+}
+
+
+
+/*connexion / login */
+
+.container_login{
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/*connexion / login */
+
+.container_admin {
+    height: 680px;
+    display: flex;
+    flex-direction: column; /* Les éléments seront empilés verticalement */
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container {
+    margin-top: 50px; /* Ajout d'un espacement entre le titre et les boutons */
+}
+
+.btn-container button {
+    margin-bottom: 20px; /* Ajout d'un espacement entre les boutons */
+}
+
+.container-article{
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* Titre */
+.titre-article {
+    font-weight: bold; /* Met le titre en gras */
+    text-align: center; /* Centre le texte horizontalement */
+    margin-bottom: 20px; /* Ajoute un espacement en bas */
+}
+
+/* Filtre */
+.filtre {
+    margin-top: 20px; /* Ajoute un espacement entre le titre et le filtre */
+    display: flex; /* Utilise un conteneur flex */
+    justify-content: center; /* Centre les éléments horizontalement */
+    margin-bottom: 20px; /* Ajoute un espacement en bas */
+}
+
+.btn-filtre {
+    text-align: center; /* Centre le bouton horizontalement */
+}
+
+
+
+
+/* Tableau */
+.tableau {
+    margin-top: 100px; /* Ajustez cette valeur selon vos besoins */
+    overflow-y: auto; /* Ajoute un défilement vertical */
+}
+
+.tableau-style {
+    border-collapse: collapse;
+    max-width: 400px; /* Réduction de la largeur maximale */
+    width: 60%; /* Ajustement de la largeur */
+    cursor: pointer;
+    margin: 20px auto; /* Modification de la marge pour monter le tableau */
+    border: 2px solid black;
+    padding: 16px;
+}
+
+thead tr {
+    background-color: #262626;
+    color: #fff;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(event) {
+    background-color: #f3f3f3;
+}
+
+/*gestion user admin*/
+.container_gestion_user{
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.titre_gestion {
+    font-weight: bold; /* Met le titre en gras */
+    text-align: center; /* Centre le texte horizontalement */
+    margin-bottom: 20px; /* Ajoute un espacement en bas */
+}
+
+.filtre_gestion {
+    width: 100%; /* Utilise toute la largeur disponible */
+    display: flex; /* Utilise un conteneur flex */
+    flex-direction: row; /* Affiche les éléments du formulaire en ligne */
+    align-items: center; /* Centre les éléments du formulaire horizontalement */
+    justify-content: space-between; /* Ajoute un espacement entre les éléments */
+}
+
+
+/*Profil*/
+
+.profil {
+    margin-top: 170px; /* Ajustez cette valeur selon vos besoins */
+    overflow-y: auto; /* Ajoute un défilement vertical */
+}
+
+form {
+    width: 100%; /* Utilisation de pourcentage pour une meilleure adaptation à la taille de l'écran */
+    max-width: 550px; /* Limiter la largeur du formulaire pour les grands écrans */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+form * {
+    font-weight: normal; /* Changer de bold à normal pour les éléments enfants du formulaire */
+}
+
+form label {
+    font-size: 18px;
+    color: black;
+}
+
+form .form-control,
+form .form-control:focus {
+    border-color: transparent;
+    border-bottom-color: #bebcc1;
+    box-shadow: none;
+}
+
+form .btn {
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.btn.btn-default {
+    background: #ebebeb;
+    color: #8f9096;
+}
+
+.btn.btn-primary {
+    background:  #00C2FF;
+    color: white;
+}
+
+.sidebar {
+    height: 100vh !important;
+    bottom: 0;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    background: #6c63ff;
+}
+
+label {
+    position: relative;
+}
+  
+label input {
+    font-size: 1em;
+    color: #f9f9f9;
+    background: transparent;
+    padding: 1rem 1.2rem;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #7a7a7a;
+    transition: all 0.2s;
+}
+
+label .password-icon:hover {
+    cursor: pointer;
+    color: #ff4754;
+  }
+  
+  label .password-icon .feather-eye-off {
+    display: none;
+  }
+
+
+@media screen and (max-width:940px){
+    .sidebar{
+        font-size: 1rem;
+        padding-left :0px;
+    }
+}
+
+
+.sidebar .nav-link{
+    margin-bottom: 20px;
+    color:#dddce5;
+}
+
+.nav-link.active{
+    color:#fff;
+}
+
+.main > .row{
+    height: 100%;
+}
+
+@media screen and (max-width:768px){
+    .content{
+        padding-left:50px; 
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    
+    form{
+        width: 100%;
+        margin:auto;
+    }
+    
+}
+
+.menu {
+    position: absolute;
+    right: 10%;
+    top:30px;
+    margin:auto;
+    display: none;  
+    cursor:pointer;
+    z-index: 5;
+    height: 33px;
+    width:30px;
+}
+
+.bar,.bar:after,.bar:before {
+    width:30px;
+    height:3px;
+    background: #6c63ff;
+    transition: all 0.2s;
+}
+
+.bar{
+    position: relative;
+}
+
+.bar:after {
+    position: absolute;
+    content: '';
+    left:0;
+    top:10px;
+    transition: top 0.2s 0.2s,transform 0.2s;
+}
+
+.bar:before {
+    position: absolute;
+    content: '';
+    left:0;
+    bottom:10px;
+    transition: bottom 0.2s 0.2s,transform 0.2s;
+}
+.bar.animate{
+    background: transparent;
+}
+.bar.animate:after{
+    top:0;
+    transform: rotate(45deg);
+    transition: top 0.2s ,transform 0.2s 0.2s;
+    background: #fff;
+}
+
+.bar.animate:before{
+    bottom:0;
+    transform: rotate(-45deg);
+    transition: bottom 0.2s,transform 0.2s  0.2s;
+    background: #fff;
+}
+
+.expand-menu {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: #6c63ff;
+    transition: width 0.5s;
+    width: 0%;
+}
+
+.expand-menu .nav-link{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    color:#dddce5;
+    font-size:1.5rem;
+    display: none;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.expand-menu .nav-link.animate{
+    display: block;
+}
+
+.expand-menu .nav-link.animate-show{
+    opacity:1;
+}
+
+.expand-menu .nav-link.active{
+    color:#fff;
+}
+
+.expand-menu.animate{
+    width : 100%;
+}
+
+
+@media only screen and (max-width: 993px){
+    .histoire-banner, .services-container, .contact-banner{
+        margin-top: 125px;
+    }
+    .mobile-button{
+        display: block;
+    }
+    header nav{
+        display: none;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        transition: all 0.1s ease-out;
+        padding-block: 1rem;
+        padding-inline: 5rem;
+       
+    }
+    .acceuil-container{
+        flex-direction: column;
+    }
+    .acceuil-content{
+        width: 100%;
+    }
+    .banner{
+        padding: 21rem 4rem 10rem;
+    }
+    .banner-container{
+        width: 75%;
+    }
+    .footer-container{
+        align-items: baseline;
+        flex-direction: column;
+    }
+    .nous-contacter{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .nous-contacter .contact-container{
+        width: 80%;
+    }
+    .contact-map{
+        width: 100%;
+    }
+   .reparations-cards-container{
+    width: 100%;
+   }
+   .reparations-cards-container li{
+    width: 40% !important;
+   }
+    .footer-container{
+        gap: 4rem;
+        flex-direction: row;
+   }
+   footer .contact-container{
+        flex-direction: column-reverse;
+   }
+   .services-card-list{
+        flex-direction: column;
+        gap: 3rem;
+   }
+   .services-card-list li{
+    width: 90% !important;
+   }
+}
+
+@media only screen and (max-width: 690px){
+    .histoire-container li{
+        grid-column: 3/4 !important;
+    }
+    
+    .histoire-container ul{
+        grid-template-columns: 1rem 1fr;
+        width: 90%;
+    }
+    .timeline-card-titre{
+        flex-direction: row !important;
+    }
+}
+
+@media only screen and (max-width: 710px){
+    .reparations-cards-container ul li, .services-cards-container li{
+        width: 45%;
+    }
+    section{
+        width: 92%;
+    }
+    .reparations-cards-container{
+        width: 100%;
+    }
+    .reparations-cards-container ul{
+        margin-inline: 0;
+    }
+    .composants-banner{
+        flex-direction: column;
+    }
+    .composants-banner-titre{
+        width: 100%;
+        height: auto;
+        padding-block: 5rem;
+    }
+    .composants-banner-content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 532px){
+    .reparations-cards-container ul{
+        justify-content: center;
+    }
+    .reparations-cards-container li{
+        width: 80% !important
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 384px){
+    header{
+        padding-inline: 2rem;
+    }
+}

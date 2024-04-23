@@ -1,0 +1,2706 @@
+INFO - 2024-03-14 09:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 09:11:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 09:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 09:11:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Envoie_Email::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:11:30 --> ErrorException: Attempt to read property "username" on null
+in APPPATH\Controllers\Envoie_Email.php on line 23.
+ 1 APPPATH\Controllers\Envoie_Email.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Controllers\\Envoie_Email.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Envoie_Email->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Envoie_Email))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 09:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 09:11:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Envoie_Email::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:11:30 --> ErrorException: Attempt to read property "username" on null
+in APPPATH\Controllers\Envoie_Email.php on line 23.
+ 1 APPPATH\Controllers\Envoie_Email.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Controllers\\Envoie_Email.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Envoie_Email->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Envoie_Email))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:01:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:01:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:01:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:01:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:02:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:04:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:04:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:04:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:04:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:05:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:05:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:05:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:05:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:05:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:05:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:05:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:05:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:05:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:05:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:06:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:06:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:06:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:06:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:06:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:06:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:06:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:07:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:07:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:07:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:07:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:07:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:07:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:07:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:08:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 10:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:08:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:08:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 10:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 10:08:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 10:08:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 13:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:09:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:09:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:09:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:09:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 13:09:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 13:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:09:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 13:09:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 13:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 13:12:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 13:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 13:12:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 13:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:12:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:23:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:23:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:24:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Inscription::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:24:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Inscription::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:25:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:30:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:30:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:31:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:31:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:32:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:34:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:35:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:35:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:35:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:36:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:36:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:37:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:38:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:39:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:40:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:40:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:41:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:41:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Contact::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:41:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:45:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:45:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:47:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:49:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:50:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 13:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 13:52:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:01:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:03:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:05:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:07:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:14:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:14:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:14:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:14:49 --> ParseError: syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\Pages\Admin\utilisateur_admin.php on line 80.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/Admin/utilisateur_admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(36): view('Pages/Admin/utilisateur_admin')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->utilisateur()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:23:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:23:52 --> Error: Class "App\Models\commandeModel" not found
+in APPPATH\Views\Pages\Admin\utilisateur_admin.php on line 5.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/Admin/utilisateur_admin', [], true)
+ 4 APPPATH\Controllers\Admin.php(36): view('Pages/Admin/utilisateur_admin')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->utilisateur()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:24:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:25:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:25:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:26:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:26:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:26:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:26:28 --> ErrorException: Undefined property: stdClass::$date_creation
+in APPPATH\Views\Pages\Admin\utilisateur_admin.php on line 69.
+ 1 APPPATH\Views\Pages\Admin\utilisateur_admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_creation', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/Admin/utilisateur_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(36): view('Pages/Admin/utilisateur_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->utilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:26:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:28:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:29:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:30:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:30:28 --> ErrorException: Undefined property: stdClass::$date_creation
+in APPPATH\Views\Pages\Admin\utilisateur_admin.php on line 69.
+ 1 APPPATH\Views\Pages\Admin\utilisateur_admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_creation', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/Admin/utilisateur_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(36): view('Pages/Admin/utilisateur_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->utilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:31:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:31:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:31:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:31:08 --> ErrorException: Undefined property: stdClass::$date_creation
+in APPPATH\Views\Pages\Admin\utilisateur_admin.php on line 69.
+ 1 APPPATH\Views\Pages\Admin\utilisateur_admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_creation', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/Admin/utilisateur_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(36): view('Pages/Admin/utilisateur_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->utilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:32:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:32:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:32:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:32:43 --> ErrorException: Undefined property: stdClass::$date_creation
+in APPPATH\Views\Pages\Admin\utilisateur_admin.php on line 60.
+ 1 APPPATH\Views\Pages\Admin\utilisateur_admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_creation', 'C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\user\\xampp\\htdocs\\v4bis\\app\\Views\\Pages\\Admin\\utilisateur_admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Pages/Admin/utilisateur_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(36): view('Pages/Admin/utilisateur_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->utilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:32:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:34:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:34:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:34:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:34:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Contact::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:43:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:44:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:45:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:46:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Services::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:46:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:49:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:56:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:57:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 14:57:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:03:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:03:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:04:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:04:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:04:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:05:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:05:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:06:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:06:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:07:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:07:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:13:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:13:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:17:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:20:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:23:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:23:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 15:23:02 --> Error: Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `utilisateur` (`username`, `societe`, `email`, `mdp`, `id_user_societe`) VALUES (:username:, :societe:, :email:, :mdp:, :id_user_societe:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `utilisateur` (`username`, `societe`, `email`, `mdp`, `id_user_societe`) VALUES (:username:, :societe:, :email:, :mdp:, :id_user_societe:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `utilisateur` (`username`, `societe`, `email`, `mdp`, `id_user_societe`) VALUES (:username:, :societe:, :email:, :mdp:, :id_user_societe:)', [...], false)
+ 6 APPPATH\Models\SessionModel.php(123): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\Admin.php(42): App\Models\SessionModel->create_user()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->create_user()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:30:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:31:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:33:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:33:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 15:33:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:31 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:32 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:33 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:33 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:34 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:35 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:35 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:36 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:36 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:37 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:38 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:38 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:39 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:40 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:40 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:41 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:42 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:42 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:43 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:33:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:33:44 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+INFO - 2024-03-14 15:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:40:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:40:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 15:40:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:37 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:37 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:38 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:39 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:39 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:40 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:41 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:41 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:42 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:43 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:43 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:44 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:45 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:45 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:46 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:47 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:47 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:48 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:49 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:49 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:50 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:50 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:40:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:40:51 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+INFO - 2024-03-14 15:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:41:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:41:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:42:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 15:43:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:00 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:00 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:01 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:02 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:02 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:03 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:04 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:04 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:05 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:06 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:06 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:07 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:08 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:08 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:09 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:10 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:10 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:11 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:12 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:12 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:13 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:14 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:43:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:43:14 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+INFO - 2024-03-14 15:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Authentification::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 15:44:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 15:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-14 15:44:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-03-14 15:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compte::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:44:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Accueil::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:45:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:47:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:47:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:49:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:50:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 15:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-14 15:50:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 15:50:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:16 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:17 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:17 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:18 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:19 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:19 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:20 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:21 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:21 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:22 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:23 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:23 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:24 --> 220 kundenserver.de (mreue010) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:25 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:25 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:26 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:27 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:27 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:28 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:28 --> 220 kundenserver.de (mreue012) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:29 --> 220 kundenserver.de (mreue009) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:30 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
+ERROR - 2024-03-14 15:50:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-03-14 15:50:31 --> 220 kundenserver.de (mreue011) Nemesis ESMTP Service ready
+
+hello: 250-kundenserver.de Hello localhost [90.22.245.117]
+250-8BITMIME
+250-AUTH LOGIN PLAIN
+250 SIZE 140000000
+
+from: 250 Requested mail action okay, completed
+
+to: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+The following SMTP error was encountered: 450-Requested mail action not taken: mailbox unavailable
+450 Mail send limit exceeded.
+
+quit: 221 kundenserver.de Service closing transmission channel
+
